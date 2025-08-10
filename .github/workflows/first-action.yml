@@ -8,3 +8,7 @@ jobs:
         run: echo "Hello World"
       - name: pring goodbye
         run: echo "Done - good bye!"
+      - name: checking a multiline run command
+        run: |
+            echo "first line run"
+            echo "Second line run"
